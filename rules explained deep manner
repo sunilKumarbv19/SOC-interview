@@ -1,0 +1,73 @@
+some of the Pass the Hash
+
+1) Pass-the-Hash
+
+A Pass-the-Hash (PtH) attack is a technique where an attacker captures a password hash (as opposed to the password characters) and then passes it through for authentication and lateral access to other networked systems. 
+	 
+Product Event Class ID- 4624 - An account was successfully logged on
+Product Process Name - seclogo, Advapi 
+Prevention:
+• Never log into a workstation with a privileged account
+• Enable Windows Defender Credential Guard
+• Apply the Principle of Least User Access
+• Use Firewalls to Block Unnecessary Traffic
+Use Specops Password Auditor to Access Your Password Healthrules explained deep manner
+
+---------------------------------------------------------------------------------------------
+
+2) Mimikatz
+
+https://www.varonis.com/blog/what-is-mimikatz
+Mimikatz (cute cats) originally demonstrated how to exploit a single vulnerability in the Windows authentication system. Now it exposes several different kinds of vulnerabilities; Mimikatz can perform credential-gathering techniques such as:
+
+
+---------------------------------------------------------------------------------------------
+
+3) Log4J
+
+Log4j is an open-source logging framework maintained by Apache
+Log4j is used to log messages within software and has the ability to communicate with other services on a system. This communication functionality is where the vulnerability exists, providing an opening for an attacker to inject malicious code into the logs so it can be executed on the system. 
+The vulnerability was first discovered in a version of the game Minecraft.
+No fix for Log4J and apache released the new version
+Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3 and 2.3.1)
+This issue was fixed in Log4j 2.17.0, 2.12.3, and 2.3.1.
+
+---------------------------------------------------------------------------------------------
+
+4) DDOS
+
+Distributed denial of service (DDoS) is a broad class of cyberattack that disrupts online services and resources by overwhelming them with traffic. 
+
+1. Volumetric attacks (traffic ):
+The classic type of DDoS, these attacks employ methods to generate massive volumes of traffic to completely saturate bandwidth, creating a traffic jam that makes it impossible for legitimate traffic to flow into or out of the targeted site.
+2. Protocol attacks
+Protocol attacks are designed to eat up the processing capacity of network infrastructure resources like servers, firewalls, and load balancers by targeting Layer 3 and Layer 4 protocol communications with malicious connection requests.
+3. Application attacks
+Some of the more sophisticated DDoS attacks, these exploit weaknesses in the application layer—Layer 7—by opening connections and initiating process and transaction requests that consume finite resources like disk space and available memory.
+
+
+UDP flood - malicious actors can spoof a source IP address and generate User Datagram Protocol (UDP) packets to a targeted server 
+ICMP floods - malicious actors try to overwhelm a server or network device with ICMP pings, or echo-request packets
+SYN flood - an attacker rapidly initiates a connection to a server without finalizing the connection. The server has to spend resources waiting for half-opened connections, which can consume enough resources to make the system unresponsive to legitimate traffic.
+HTTP flood -  attacker exploits seemingly-legitimate HTTP GET or POST requests to attack a web server or application.
+
+HTTP flood attacks are volumetric attacks, often using a botnet “zombie army”—a group of Internet-connected computers, each of which has been maliciously taken over, usually with the assistance of malware like Trojan Horses.
+
+DNS amplification - an attacker leverages the functionality of open DNS resolvers in order to overwhelm a target server or network with an amplified amount of traffic, rendering the server and its surrounding infrastructure inaccessible.
+
+Ping of death - attacker attempts to crash, destabilize, or freeze the targeted computer or service by sending malformed or oversized packets using a simple ping command.
+
+DOS	DDOS
+DOS Stands for Denial of service attack.	DDOS Stands for Distributed Denial of service attack.
+In Dos attack single system targets the victim system.	In DDoS multiple systems attacks the victims system..
+Victim PC is loaded from the packet of data sent from a single location.	Victim PC is loaded from the packet of data sent from Multiple location.
+Dos attack is slower as compared to DDoS.	DDoS attack is faster than Dos Attack.
+Can be blocked easily as only one system is used.	It is difficult to block this attack as multiple devices are sending packets and attacking from multiple locations.
+In DOS Attack only single device is used with DOS Attack tools.	In DDoS attack,The volumeBots are used to attack at the same time.
+DOS Attacks are Easy to trace.	DDOS Attacks are Difficult to trace.
+Volume of traffic in the Dos attack is less as compared to DDos.	DDoS attacks allow the attacker to send massive volumes of traffic to the victim network.
+Types of DOS Attacks are: 1. Buffer overflow attacks 2. Ping of Death or ICMP flood 3. Teardrop Attack 4. Flooding Attack	Types of DDOS Attacks are: 1. Volumetric Attacks 2. Fragmentation Attacks 3. Application Layer Attacks 4. Protocol Attack.
+
+
+
+
