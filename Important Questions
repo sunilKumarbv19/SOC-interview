@@ -1,0 +1,17 @@
+	1. where do you get your security news from?
+in security if we are not learning then we are moving backwords, things change, new techj realsed, new vulnerability are discoved all the time
+https://www.darkreading.com/
+https://krebsonsecurity.com/
+Security Weekly - youtube
+follow some of the groups in twitter - HackerOne, blackhat, BugBountyHunter.com, Cyber Security 
+
+
+https://www.comptia.jp/pdf/Security%2B%20SY0-501%20Exam%20Objectives.pdf
+
+	2. What is risk? What is a Threat? What is a Vulnerability?
+Vulnerability vs threat vs risk
+First, a vulnerability exposes your organization to threats. A threat is a malicious or negative event that takes advantage of a vulnerability. Finally, the risk is the potential for loss and damage when the threat does occur
+
+	3. Imp files in linux?
+passwd contains the users' public information (UID, full name, home directory), 
+while shadow contains the hashed password and the password expiry data.
