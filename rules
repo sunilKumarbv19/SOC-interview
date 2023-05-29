@@ -1,0 +1,76 @@
+IDS Trojan or Malware or Worm Signature Match
+IDS Signature Detected From Blacklisted IP
+IDS Huge Data Upload Towards Server
+IDS Denial of Service Signature Match
+IDS CNC Communication Signature Match
+
+WAF Same Signatures From Multiple Source
+Akamai WAF Cross Site Scripting Attack
+Akamai WAF Unusual Request Method
+WAF Detection Of File Upload Attempt on WSO2 Server
+ 
+F5 Silverline WAF Possible Apache Log4j Zero Day Attack-  
+Apache_Log4j_IOC - Request URL contains - 
+jndi:ldap:
+jndi:rmi:
+jndi:ldaps:
+jndi:dns:
+7bjndi:
+jndi:corba
+jndi:nds
+jndi:iiop
+${base64:JHtqbmRp
+${::-l}${::-d}${::-a}${::-p}
+${${env:BARFOO:-j}
+${::-j}${
+${jndi:${lower:
+${jndi:nds*
+${jndi:iiop
+%2F%252524%25257Bjndi%3A
+%24%7bjndi:
+
+Palo Alto IPS Multiple Blocked followed by Accepted Signature
+Multiple Hits Towards Internet Facing IPs
+SonicWALL Firewall IPS Multiple Signatures Towards Same Destination
+McAfee NIPS Multiple Signatures Triggered From Same Source
+Mcafee NSM HIPS Probable Successful Malware Attack
+CheckPoint IPS SQL Injection
+CheckPoint IPS Remote Code Execution From External Source
+CISCO IPS Possible DNS exploit
+ 
+CISCO IPS-Heartbleed Event detected - OpenSSL Information Disclosure
+Fortigate IPS Possible Apache Text4Shell Attack -Apache.Commons.Text.Interpolation.Remote.Code.Execution
+Fortigate IPS Microsoft Exchange RCE Zero Day Attack - MS.Exchange.Server.Autodiscover.Remote.Code.Execution
+
+Authentication: 
+ 
+1. Windows Brute Force Attempt 
+Conditions: at least 50 events - are seen in 10 minutes of time 
+And Event ID 4625 - An account failed to log on 
+                        4771 - Kerberos pre-authentication failed 
+ 
+2. Windows Scheduled Task Updated 
+Conditions:  External ID = 4702  (A scheduled task was updated). 
+ 
+3. Windows Possible Pass The Hash Detection 
+Conditions:  
+Event Class ID = Microsoft-Windows-Security-Auditing:4624 
+Product Process Name = seclogo,Advapi 
+Logon type     = 9 ("A caller cloned its current token and specified new credentials for outbound connections. The new logon session has the same local identity, but uses different credentials for other network connections.") 
+ 
+4. Windows Domain Policy Change 
+Conditions:  
+External ID = 4739 
+Message = Password Policy, Lockout Policy 
+ 
+5. Windows Domain Policy Change 
+Conditions:  
+External ID = 4732 - A member was added to a security-enabled local group 
+              4733 - A member was removed from a security-enabled local group 
+Target Domain User Name = Remote Desktop Users 
+Cryptographic Operators 
+Hyper-V Administrators 
+Remote Management Users 
+Power Users 
+Backup Operators 
+Administrators 
