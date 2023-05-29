@@ -74,3 +74,25 @@ Remote Management Users
 Power Users 
 Backup Operators 
 Administrators 
+
+--------------------------------------------------------------------------------------------------
+
+
+Important Event ID
+
+1102 The audit log was cleared
+ 
+4624 An account was successfully logged on
+4625 An account failed to log on
+ 
+4627 Group membership information.
+4634 An account was logged off
+4688 A new process has been created
+ 
+4720 A user account was created
+4726 A user account was deleted
+4738 A user account was changed
+4740 A user account was locked out
+ 
+4768 A Kerberos authentication ticket (TGT) was requested
+4772 A Kerberos authentication ticket request failed
